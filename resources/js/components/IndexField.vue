@@ -38,7 +38,7 @@
 
             reorderRequest(direction) {
                 return Nova.request().patch(
-                    `/nova-vendor/naxon/nova-field-sortable/${this.resourceName}/${this.field.value}/reorder`,
+                    `/nova-vendor/Project383/nova-field-sortable/${this.resourceName}/${this.field.value}/reorder`,
                     {direction: direction}
                 );
             },

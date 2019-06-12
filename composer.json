@@ -1,5 +1,5 @@
 {
-    "name": "dillingham/nova-field-sortable",
+    "name": "383project/nova-field-sortable",
     "description": "A Laravel Nova field.",
     "keywords": [
         "laravel",
@@ -13,13 +13,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Naxon\\NovaFieldSortable\\": "src/"
+            "Project383\\NovaFieldSortable\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Naxon\\NovaFieldSortable\\FieldServiceProvider"
+                "Project383\\NovaFieldSortable\\FieldServiceProvider"
             ]
         }
     },

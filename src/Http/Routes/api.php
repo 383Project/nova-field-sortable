@@ -2,5 +2,5 @@
 
 Route::patch(
     '{resource}/{resourceId}/reorder',
-    'Naxon\NovaFieldSortable\Http\Controllers\ResourceSortingController@handle'
+    'Project383\NovaFieldSortable\Http\Controllers\ResourceSortingController@handle'
 );

@@ -1,6 +1,6 @@
 <?php
 
-namespace Naxon\NovaFieldSortable;
+namespace Project383\NovaFieldSortable;
 
 use Laravel\Nova\Nova;
 use Illuminate\Support\Facades\Route;
@@ -40,7 +40,7 @@ class FieldServiceProvider extends ServiceProvider
     {
         Route::domain(config('nova.domain', null))
             ->middleware(config('nova.middleware', []))
-            ->prefix('/nova-vendor/naxon/nova-field-sortable')
+            ->prefix('/nova-vendor/Project383/nova-field-sortable')
             ->group(__DIR__ . '/Http/Routes/api.php');
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Naxon\NovaFieldSortable\Http\Controllers;
+namespace Project383\NovaFieldSortable\Http\Controllers;
 
 use Illuminate\Routing\Controller;
 use Laravel\Nova\Http\Requests\NovaRequest;
