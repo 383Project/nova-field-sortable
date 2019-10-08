@@ -1,6 +1,6 @@
 {
     "name": "383project/nova-field-sortable",
-    "description": "A Laravel Nova field.",
+    "description": "A Laravel Nova sortable field.",
     "keywords": [
         "laravel",
         "nova"
